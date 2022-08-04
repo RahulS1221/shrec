@@ -21,6 +21,15 @@ target 'newProject' do
 
   pod 'react-native-voice', :path => '../node_modules/@react-native-voice/voice'
 
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+  pod 'react-native-fetch-blob', :path => '../node_modules/react-native-fetch-blob'
+
+  pod 'RNFS', :path => '../node_modules/react-native-fs'
+
+
+  pod 'RNAudioRecord', :path => '../node_modules/react-native-audio-record'
+
   target 'newProjectTests' do
     inherit! :complete
     # Pods for testing
